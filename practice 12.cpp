@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{   
+unsigned a,b,seed;
+cout<<"enter seed value:"<<endl;
+cin>>seed;
+srand(seed);
+ a=1+rand()%6;
+ b=1+rand()%6;
+ 
+ cout<<a<<" "<<b;
+ return 0;
+}
