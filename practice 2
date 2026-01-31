@@ -4,16 +4,17 @@ using namespace std;
 int main()
 {
 	int x;
+	cin>>x;
 	int y;
-	cin>>x>>y;
+	cin>>y;
 	if(x>y){
 		cout<<x<<endl;
 		x++;
-}else{
+}
+if(y>=x){
 		cout<<y<<endl;
 		y--;
 	}
 	cout<<x<<"  "<<y;
 	return 0;
 }
-
