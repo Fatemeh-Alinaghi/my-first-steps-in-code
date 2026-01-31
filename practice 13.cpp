@@ -25,10 +25,10 @@ main()
 		}
 	}
 	for(i=0;i<n;i++){
-		cout<<a[i]<<"       ";
+		cout<<a[i]<<" ";
 	}
 	
-	cout<<endl<<endl;
+	cout<<endl;
 	
 	{
 	for(i=0;i<n-1;i++){
@@ -41,7 +41,7 @@ main()
 		}
 	}
 	for(i=0;i<n;i++){
-		cout<<a[i]<<"       ";
+		cout<<a[i]<<" ";
 	}
 	}
 	
